@@ -29,7 +29,7 @@ int main(int argc, char **argv)
 {
     if (argc != NUM_P)
     {
-        fprintf(stderr, "Usage: %s <device file> <layout> <unicode>\n", argv[P_EXE]);
+        fprintf(stderr, "Usage: %s <keyboard device file> <mouse device file>\n", argv[P_EXE]);
         fprintf(stderr, "Takes string to type from stdin\n");
         fprintf(stderr, "<device file>:\ton the Raspberry Pi usually /dev/hidg0\n");
 
