@@ -1,0 +1,13 @@
+[Unit]
+Description=Run once
+After=local-fs.target
+After=network.target
+#After=XXX
+
+[Service]
+ExecStart=/usr/bin/kvm_hid_setup
+RemainAfterExit=true
+Type=oneshot
+
+[Install]
+WantedBy=multi-user.target
