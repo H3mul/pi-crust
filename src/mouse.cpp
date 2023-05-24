@@ -1,4 +1,5 @@
 #include <mouse.h>
+#include <stdint.h>
 
 #define LEFT_BUTTON 1
 #define MIDDLE_BUTTON 2

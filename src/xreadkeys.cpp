@@ -98,11 +98,11 @@ int main(int argc, char **argv)
         }
         else if (event.type == EnterNotify && eventLoopRunOnce)
         {
-            printf("EnterWindow: x: %d, y: %d \n");
+            printf("EnterWindow\n");
         }
         else if (event.type == LeaveNotify)
         {
-            printf("LeaveWindow: x: %d, y: %d \n");
+            printf("LeaveWindow\n");
         }
         else if (event.type == MotionNotify)
         {

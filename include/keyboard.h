@@ -1,5 +1,6 @@
 #include <map>
 #include <X11/Xlib.h>
+#include <string>
 
 #pragma once
 
